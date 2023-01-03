@@ -1,0 +1,198 @@
+/*Default Styles*/
+
+.defaultColorBlue-Button,
+.defaultColorBlue-Button:focus {
+  background-color: #0199b1;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.defaultColorBlue-Button:hover {
+  background-color: transparent;
+  color: #0199b1;
+  border: 1px solid #0199b1;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.defaultColorBrown-Button,
+.defaultColorBrown-Button:focus {
+  background-color: #682300;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.defaultColorBrown-Button:hover {
+  background-color: #fff;
+  color: #682300;
+  border: 1px solid #682300;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.defaultColorOily {
+  color: #968e3b;
+}
+
+.defaultBorderBlue-Button,
+.defaultBorderBlue-Button:hover,
+.defaultBorderBlue-Button:focus {
+  background-color: transparent;
+  border: 1px solid #0199b1;
+  color: #0199b1;
+}
+.defaultColorBlue {
+  color: #0199b1;
+}
+.footer {
+  background-color: #a1835c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.defaultColorBrown {
+  color: #682300;
+}
+.defaultColorGray {
+  color: #686868;
+}
+.defaultColorGray2 {
+  color: #3b3b3b;
+}
+
+.defaultBGColorBeige {
+  background-color: #f1e3be;
+}
+.defaultBorderBeige {
+  border: 1px solid #f1e3be;
+}
+.defaultBGColorSimon {
+  background-color: #fef7e4;
+}
+.defaultColorBrown2 {
+  color: #755d50;
+}
+.defaultColorBrown3 {
+  color: #a1835c;
+}
+.favoriteIcon {
+  color: #b54447;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.favoriteIcon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.cartIcon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.cartIcon {
+  color: #8e8e8e;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.logoutBtn,
+.logoutBtn:hover,
+.logoutBtn:focus {
+  color: #682300;
+  background-color: #d5c99b;
+}
+
+.accordion {
+  margin: 40px 0;
+}
+.accordion .item {
+  border: none;
+  margin-bottom: 50px;
+  background: none;
+}
+.t-p {
+  background: #fdfdfd 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e6eb;
+  border-radius: 0px 0px 10px 10px;
+  color: #1e1e1e;
+  padding: 40px 30px;
+}
+.accordion .item .item-header h2 button.btn.btn-link {
+  background: #f6f6f6;
+  color: #1e1e1e;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #e2e6eb;
+  font-weight: 400;
+  line-height: 2.5;
+  text-decoration: none;
+}
+.accordion .item .item-header {
+  border-bottom: none;
+  background: transparent;
+  padding: 0px;
+  margin: 2px;
+}
+
+.accordion .item .item-header h2 button {
+  color: #1e1e1e;
+  font-size: 20px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+}
+
+.accordion .item .item-header h2 i {
+  font-size: 30px;
+  color: #1e1e1e;
+  background-color: transparent;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+button.btn.btn-link.collapsed i {
+  transform: rotate(0deg);
+}
+
+button.btn.btn-link i {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.navi .navi-item .navi-link .navi-icon i {
+  color: #682300;
+}
+
+.filtersNav {
+  white-space: nowrap;
+}
+.filtersNav .nav-item {
+  display: inline-block;
+}
+
+.sectionFilterIcon {
+  color: #682300;
+  font-size: 25px;
+}
+
+#kt_header_mobile_toggle i {
+  color: #682300;
+  z-index: 9999;
+}
+
+.whatYouWant {
+  color: #0199b1;
+}
+
+.navbarToggle {
+  color: #682300;
+  font-size: 25px;
+  cursor: pointer;
+}

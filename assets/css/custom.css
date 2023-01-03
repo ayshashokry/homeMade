@@ -1,0 +1,154 @@
+.logo {
+  height: 45px;
+}
+.btn-cart {
+  background-color: #fef7e4;
+}
+
+.cart-dropdown .text-muted {
+  color: #686868 !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #68686833;
+  /* color of the scroll thumb */
+  border-radius: 5px;
+  /* roundness of the scroll thumb */
+  border: 1px solid #68686833;
+  /* creates padding around scroll thumb */
+}
+
+/*Swiper Slider*/
+section.slider {
+  background: #fef7e4 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  /* overflow-x: hidden !important; */
+}
+.swiper-container {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.swiper-pagination-bullet {
+  background-color: #d5c99b;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 4px 5px 4px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #a1835c !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+.swiper-slide h2 {
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.swiper-slide p {
+  font-size: 20px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  letter-spacing: 0px;
+  color: #686868;
+  opacity: 1;
+}
+section.slider .search {
+  background-color: #f1e3be;
+}
+.swiper-pagination-bullets {
+  bottom: 50% !important;
+  transform: rotate(90deg);
+  left: 45% !important;
+}
+.homeSliderInputs input {
+  width: 100%;
+}
+
+/*Sections*/
+.separator {
+  display: flex;
+  align-items: center;
+}
+.separator .line {
+  height: 2px;
+  flex: 1;
+  background-color: #d5c99b;
+}
+.section-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+/*Carsouel*/
+.owl-theme .owl-nav [class*="owl-"] {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #97874d !important;
+  background: none !important;
+}
+.owl-theme .owl-nav [class*="owl-"] i {
+  color: #97874d !important;
+  font-size: 20px !important;
+}
+button.owl-prev {
+  top: 50%;
+  right: -2rem;
+}
+button.owl-next {
+  top: 50%;
+  left: -2rem;
+}
+
+
+.navi .navi-item .navi-link:hover .navi-icon i {
+  color: #682300;
+}
+
+/*Themes*/
+
+.themesOptions-container {
+  position: fixed;
+  top: 150px;
+  left: 0px;
+  z-index: 656464;
+  color: #000;
+}
+.themesOptions {
+  background-color: #fff;
+  float: left;
+  padding: 20px;
+  border: solid 2px gray;
+  display: none;
+}
+.themesOptions ul li {
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  display: inline-block;
+  cursor: pointer;
+}
+.themesOptions-container i {
+  color: #682300;
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*Ratings*/
